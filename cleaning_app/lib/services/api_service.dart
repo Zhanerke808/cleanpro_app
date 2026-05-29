@@ -410,7 +410,7 @@ import '../models/user_model.dart';
 
 class ApiService {
   // Chrome web үшін localhost
-  static const String baseUrl = 'http://localhost:3000/api';
+  static const String baseUrl = 'https://cleanpro-app-backend-1.onrender.com/api';
 
   static Future<String> _getIdToken() async {
     final user = FirebaseAuth.instance.currentUser;
