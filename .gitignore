@@ -1,0 +1,6 @@
+﻿node_modules/
+.env
+backend/serviceAccountKey.json
+*.key
+*.pem
+.DS_Store
